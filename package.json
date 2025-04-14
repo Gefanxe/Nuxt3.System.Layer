@@ -1,0 +1,30 @@
+{
+  "name": "my-system-nuxt-layer",
+  "type": "module",
+  "version": "0.0.1",
+  "main": "./nuxt.config.ts",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^4.12.0",
+    "@nuxt/eslint": "latest",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/knex": "^0.16.1",
+    "casbin": "^5.38.0",
+    "casbin-knex-adapter": "^0.7.2",
+    "eslint": "^9.24.0",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.1.0",
+    "nuxt": "^3.16.2",
+    "objection": "^3.1.5",
+    "sass": "^1.85.1",
+    "sqlite3": "^5.1.7",
+    "typescript": "^5.8.3",
+    "vue": "latest"
+  }
+}
