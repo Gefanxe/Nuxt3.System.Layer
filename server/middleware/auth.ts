@@ -5,8 +5,8 @@ export default eventHandler(async (event) => {
     return; // GET 請求不處理 auth 驗證
 
   const withoutAuthList = [
-    '/api/test',
     '/api/auth',
+    '/api/test',
   ];
 
   const noAuth = withoutAuthList.some((url) => {
